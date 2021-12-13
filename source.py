@@ -80,7 +80,7 @@ if __name__=="__main__" :
             speak(" City name ")
             print("City name : ")
             city_name = listener()
-            complete_url = base_url + "appid =" + api_key + "&q =" + city_name
+            complete_url = base_url + "appid=" + api_key + "&q=" + city_name
             response = requests.get(complete_url)
             data = response.json()
              
